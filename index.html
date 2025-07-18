@@ -85,7 +85,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/07/18/uploadlabs/">uploadlabs</a>
+      <a class="p-name article-title" href="/2025/07/18/uploadlabs/">day1-uploadlabs</a>
     </h1>
   
 
@@ -93,14 +93,21 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h2 id="下载upload-labs"><a href="#下载upload-labs" class="headerlink" title="下载upload-labs"></a>下载upload-labs</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/c0ny1/upload-labs.git</span><br></pre></td></tr></table></figure>
+
+<h2 id="启动apache2"><a href="#启动apache2" class="headerlink" title="启动apache2"></a>启动apache2</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">sudo</span> systemctl start apache2</span><br><span class="line">$ <span class="built_in">sudo</span> systemctl <span class="built_in">enable</span> apache2 <span class="comment">#开机自启动</span></span><br><span class="line">$ <span class="built_in">sudo</span> systemctl <span class="built_in">disable</span> apache2 <span class="comment">#关闭开机自启动</span></span><br></pre></td></tr></table></figure>
+<h2 id="部署upload-labs"><a href="#部署upload-labs" class="headerlink" title="部署upload-labs"></a>部署upload-labs</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">sudo</span> <span class="built_in">mv</span> upload-labs  /var/www/html </span><br><span class="line">$ <span class="built_in">chmod</span> 777 upload  <span class="comment">#在/var/www/html/upload-labs目录下 ，提供权限</span></span><br></pre></td></tr></table></figure>
+<p><code>http://127.0.0.1/upload-labs/</code></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/07/18/uploadlabs/" data-id="cmd8v7zbx0000tccp85ay8ket" data-title="uploadlabs" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/07/18/uploadlabs/" data-id="cmd8v7zbx0000tccp85ay8ket" data-title="day1-uploadlabs" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/" rel="tag">基础工具使用教程 信息安全</a></li></ul>
+
     </footer>
   </div>
   
@@ -133,12 +140,10 @@
       
         <h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">sudo</span> apt install nodejs</span><br></pre></td></tr></table></figure>
 
-<h2 id="hexo-常用指令"><a href="#hexo-常用指令" class="headerlink" title="hexo 常用指令"></a>hexo 常用指令</h2><pre><code class="bash">$ hexo s #本地测试
-$ hexo new &quot;name&quot; #创建新项目
-$ hexo g #编译  注：先编译后上传
-$ hexo d #上传
+<h2 id="hexo-常用指令"><a href="#hexo-常用指令" class="headerlink" title="hexo 常用指令"></a>hexo 常用指令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s   <span class="comment"># 本地测试</span></span><br><span class="line">$ hexo new <span class="string">&quot;name&quot;</span>  <span class="comment"># 创建新项目</span></span><br><span class="line">$ hexo g   <span class="comment"># 编译  注：先编译后上传</span></span><br><span class="line">$ hexo d   <span class="comment"># 上传</span></span><br></pre></td></tr></table></figure>
 
-</code></pre>
+
+
 
       
     </div>
@@ -147,7 +152,7 @@ $ hexo d #上传
       
       
       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hhh/" rel="tag">-hhh</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" rel="tag">基础工具使用教程</a></li></ul>
 
     </footer>
   </div>
@@ -221,7 +226,7 @@ $ hexo d #上传
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hhh/" rel="tag">-hhh</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" rel="tag">基础工具使用教程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/" rel="tag">基础工具使用教程 信息安全</a></li></ul>
     </div>
   </div>
 
@@ -231,7 +236,7 @@ $ hexo d #上传
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/hhh/" style="font-size: 10px;">-hhh</a>
+      <a href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" style="font-size: 10px;">基础工具使用教程</a> <a href="/tags/%E5%9F%BA%E7%A1%80%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/" style="font-size: 10px;">基础工具使用教程 信息安全</a>
     </div>
   </div>
 
@@ -253,7 +258,7 @@ $ hexo d #上传
       <ul>
         
           <li>
-            <a href="/2025/07/18/uploadlabs/">uploadlabs</a>
+            <a href="/2025/07/18/uploadlabs/">day1-uploadlabs</a>
           </li>
         
           <li>
